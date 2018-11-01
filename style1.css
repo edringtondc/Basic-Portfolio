@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    background-image: url("assets/images/background-cement-concrete-242236.jpg");
+    color: #777;
+}
+ 
+h1 {
+    color:  #4aaaa5;
+    width: auto;
+    padding: 25px;
+    
+}
+
+hr {
+    margin: 0px 10px 0px 10px;
+    color: #777;
+    border-width: 2px;
+}
+.article {
+    position: relative;
+}
+
+.article img {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.article p {
+    margin-left: 10px;
+    padding: 5px 10px 10px 5px;
+    
+
+}
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+        
+    }
+
+.content {
+    background: white;
+    width: auto;
+    margin: 150px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.label {
+    border-bottom-color: lightgrey;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    margin: 0 10px 25px 10px;
+}
+
+/* Navigation bar and header*/
+.header-wrapper
+{
+   margin: 0 auto;
+   width: 100%;
+   background-color: #fff;
+   border-bottom: 3px solid #cccccc;
+}
+
+header {
+   letter-spacing: 3px;
+   margin: auto;
+   width: 960px;
+   background-color: #fff;
+   padding-top: 10px;
+}
+.tab {
+   
+   font-weight: bold;
+   font-size: 24px;
+   font-family: 'Pacifico', cursive;
+   background-color: #4aaaa5;
+   color: #fff;
+   float:left;
+   padding: 25px 25px 25px 25px;
+}
+nav {
+   float: right;
+   padding: 25px 20px 20px 20px;
+}
+a {
+   color: #777777;
+   text-decoration: none;
+   font-size: 16px;
+}
+
+/* Form CSS */
+form {
+   padding: 25px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+#name {
+    width: 100%;
+}
+
+#email {
+    width: 100%;
+}
+
+#message {
+    width: 100%
+}
+
+#submit {
+    background: #4aaaa5;
+    padding: 8px;
+    width: 75px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+
+}

@@ -1,0 +1,69 @@
+header {
+    background: turquoise;
+    color: white;
+    float: left;
+    width: auto;
+    font-family: 'Noto Sans' , sans-serif;
+    font-size: 24px;
+    
+}
+
+footer{
+    background: darkslategrey;
+    float: none;
+}
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    color: #fff;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    
+    
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: turquoise;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: gray;
+}
+#about {
+    background: white; 
+}
+
+#portfolio {
+
+}
+
+#contact {
+
+}
+.article img{
+    float: left;
+    width: auto;
+}
+.article p {
+    float: left;
+    width: auto;
+
+}
